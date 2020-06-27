@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be10cfac-016f-4a54-9a5b-d1587a60dfb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_01_singleResponsibilityPrinciple/SingleResponsibilityPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_02_interfaceSegregationPrinciple/InterfaceSegregationPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_03_dependenceInversionPrinciple/DependenceInversionPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_04_liskovSubstitutionPrinciple/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_04_liskovSubstitutionPrinciple/LiskovSubstitutionPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_04_liskovSubstitutionPrinciple/improve/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_05_openClosedPrinciple/Ocp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_05_openClosedPrinciple/OpenClosedPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_05_openClosedPrinciple/improve/Ocp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_06_lawOfDemeter/LawOfDemeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_06_lawOfDemeter/improve/Demeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_07_compositeReusePrinciple/CompositeReusePrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No01_seven_principle/_08_summary/Summary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/DesignPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/builder_pattern/AbstractHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/builder_pattern/BuilderPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/builder_pattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/builder_pattern/CommonHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/factory_pattern/_01_simple_factory/SimpleFactoryPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/factory_pattern/_01_simple_factory/pizza_store/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/factory_pattern/_01_simple_factory/pizza_store/pizza/GreekPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/factory_pattern/_01_simple_factory/pizza_store/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/prototype_pattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/prototype_pattern/PrototypePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/prototype_pattern/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/prototype_pattern/deep_clone/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/prototype_pattern/deep_clone/DeepCloneableTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/prototype_pattern/deep_clone/DeepProtoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/prototype_pattern/deep_shallow_copy/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/prototype_pattern/improve/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/prototype_pattern/improve/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/cglib_proxy/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/cglib_proxy/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/cglib_proxy/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/dynamic_proxy/ITeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/dynamic_proxy/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/dynamic_proxy/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/dynamic_proxy/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/static_proxy/ITeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/static_proxy/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/static_proxy/TeacherDaoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/static_proxy/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/BadFlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/GoodFlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/NoFlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/PekingDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/ToyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/WildDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/traditional/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/traditional/PekingDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/traditional/ToyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/traditional/WildDuck.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="UML Sequence" />
+        <option value="UML Activity" />
+        <option value="Enum" />
+        <option value="UML Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>extends</find>
+      <find>applyupgrades</find>
+      <find>nextExp</find>
+      <find>hunger_percent</find>
+      <find>块</find>
+      <find>clone</find>
+      <find>newProxyInstance</find>
+      <find>sort</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>implents</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_02_factory_pattern/_01_simple_factory/pizza_store/CheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_02_factory_pattern/_01_simple_factory/pizza_store/pizza/CheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_02_factory_pattern/_01_simple_factory/SimpleFactoryPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/PrototypePattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/Sheep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/improve/Sheep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/improve/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/deep_shallow_copy/Introduce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/deep_shallow_copy/ShallowCopy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/deep_shallow_copy/Copy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/deep_clone/DeepCloneableTarget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/deep_clone/DeepProtoType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/_03_prototype_pattern/deep_clone/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/No4_builder_pattern/BuilderPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_03_design_pattern/No04_builder_pattern/BuilderPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No04_builder_pattern/AbstractHouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No04_builder_pattern/CommonHouser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No04_builder_pattern/CommonHouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No04_builder_pattern/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No04_builder_pattern/BuilderPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/TeacherDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/ITeacherDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/TeacherDaoProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/dynamic_proxy/ITeacherDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/dynamic_proxy/TeacherDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/dynamic_proxy/ProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/static_proxy/TeacherDaoProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/static_proxy/ITeacherDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/static_proxy/client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/dynamic_proxy/client.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/cglib_proxy/TeacherDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/cglib_proxy/ProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/cglib_proxy/client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/Duck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/WildDuck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/PekingDuck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/ToyDuck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/traditional/PekingDuck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/FlyBehavior.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/GoodFlyBehavior.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/BadFlyBehavior.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/NoFlyBehavior.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/WildDuck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/PekingDuck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/ToyDuck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/Duck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/Demo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHome" value="D:/DevolopSoftware/Maven3.3.9" />
+        <option name="userSettingsFile" value="D:\DevolopSoftware\Maven3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="design-pattern-learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="design-pattern-learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="488" />
+    <option name="y" value="220" />
+    <option name="width" value="1368" />
+    <option name="height" value="702" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="design-pattern-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern-learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="No02_design_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="No02_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="No02_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="improved" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593221337605" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/static_proxy" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_03_design_pattern._03_prototype_pattern.improve" />
+      <recent name="_03_design_pattern._02_factory_pattern" />
+      <recent name="_03_design_pattern._01_singleton_pattern" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git-workspace\design-pattern-learning\src\main\java\No02_design_pattern\strategy_pattern\improved" />
+      <recent name="E:\git-workspace\design-pattern-learning\src\main\java\_03_design_pattern\_01_singleton_pattern" />
+      <recent name="E:\git-workspace\design-pattern-learning\src\main\java\_01_seven_principle\_05_OpenClosedPrinciple\improve" />
+      <recent name="E:\git-workspace\design-pattern-learning\src\main\java\_01_seven_principle\_04_LiskovSubstitutionPrinciple\improve" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No02_design_pattern.strategy_pattern.improved.Client" />
+      <module name="design-pattern-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No02_design_pattern.strategy_pattern.improved.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No02_design_pattern.prototype_pattern.improve.Client" />
+      <module name="design-pattern-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No02_design_pattern.prototype_pattern.improve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No02_design_pattern.builder_pattern.Client" />
+      <module name="design-pattern-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No02_design_pattern.builder_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No03_design_pattern.No03_prototype_pattern.deep_clone.Client" />
+      <module name="design-pattern-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No03_design_pattern.No03_prototype_pattern.deep_clone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No02_design_pattern.strategy_pattern.improved.Demo" />
+      <module name="design-pattern-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No02_design_pattern.strategy_pattern.improved.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No03_design_pattern.No01_singleton_pattern.SingletonPattern" />
+      <module name="design-pattern-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No02_design_pattern.singleton_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No02_design_pattern.proxy_pattern.static_proxy.client" />
+      <module name="design-pattern-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No02_design_pattern.proxy_pattern.static_proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No02_design_pattern.proxy_pattern.dynamic_proxy.client" />
+      <module name="design-pattern-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No02_design_pattern.proxy_pattern.dynamic_proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No02_design_pattern.proxy_pattern.cglib_proxy.client" />
+      <module name="design-pattern-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="No02_design_pattern.proxy_pattern.cglib_proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be10cfac-016f-4a54-9a5b-d1587a60dfb8" name="Default Changelist" comment="" />
+      <created>1582180928841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582180928841</updated>
+      <workItem from="1582180930704" duration="4982000" />
+      <workItem from="1582265033607" duration="77000" />
+      <workItem from="1582350424336" duration="6003000" />
+      <workItem from="1582508709273" duration="5854000" />
+      <workItem from="1582521883180" duration="3344000" />
+      <workItem from="1582526743383" duration="3919000" />
+      <workItem from="1582530758359" duration="2735000" />
+      <workItem from="1582540019270" duration="242000" />
+      <workItem from="1582540479384" duration="833000" />
+      <workItem from="1582598257551" duration="6923000" />
+      <workItem from="1582641661853" duration="4880000" />
+      <workItem from="1582678247164" duration="1796000" />
+      <workItem from="1582700039402" duration="3518000" />
+      <workItem from="1582788835293" duration="10639000" />
+      <workItem from="1582853276824" duration="1199000" />
+      <workItem from="1582943164492" duration="307000" />
+      <workItem from="1583227325128" duration="61000" />
+      <workItem from="1583227431440" duration="7000" />
+      <workItem from="1593050686197" duration="4620000" />
+      <workItem from="1593075497404" duration="7895000" />
+      <workItem from="1593129654184" duration="1441000" />
+      <workItem from="1593217052605" duration="4593000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="75868000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28091684" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19739696" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.37960956" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.26645768" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" weight="0.42954686" />
+      <window_info anchor="right" id="leetcode" order="10" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/cglib_proxy/ProxyFactory.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/DesignPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton06.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton08.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No03_design_pattern/No01_singleton_pattern/SingletonPattern.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/singleton_pattern/Singleton01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/factory_pattern/_01_simple_factory/pizza_store/order/OrderPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/factory_pattern/_01_simple_factory/pizza_store/pizza/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/factory_pattern/_01_simple_factory/pizza_store/pizza/GreekPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/factory_pattern/_01_simple_factory/pizza_store/pizza/CheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/factory_pattern/_01_simple_factory/SimpleFactoryPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/builder_pattern/CommonHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/test.uml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/static_proxy/TeacherDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4081">
+          <caret line="227" column="12" lean-forward="true" selection-start-line="227" selection-start-column="12" selection-end-line="227" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/dynamic_proxy/TeacherDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/static_proxy/TeacherDaoProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/static_proxy/ITeacherDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/static_proxy/static_proxy.uml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/No03_design_pattern/No05_proxy_pattern/dynamic_proxy/dynamic_proxy.uml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/dynamic_proxy/ITeacherDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/cglib/cglib/2.2/cglib-2.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/dynamic_proxy/client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/dynamic_proxy/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/static_proxy/client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/cglib_proxy/TeacherDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/2.2/cglib-2.2.jar!/net/sf/cglib/proxy/MethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/cglib_proxy/client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/proxy_pattern/cglib_proxy/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/traditional/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/traditional/PekingDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/traditional/ToyDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/traditional/WildDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/GoodFlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/BadFlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/NoFlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/WildDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/ToyDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/PekingDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/No02_design_pattern/strategy_pattern/improved/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="1181" lean-forward="true" selection-start-line="1181" selection-end-line="1181" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>ibatis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>design-pattern-learning</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
